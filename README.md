@@ -35,7 +35,7 @@ public class Program
 ```csharp
 Resend.On("chat/send", (message) =>
 {
-    return $"Echo: {message}";
+    return $"Message: {message}";
 });
 ```
 
